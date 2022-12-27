@@ -1,0 +1,39 @@
+//if given number pos,neg or zero
+
+#include <stdio.h>
+
+ 
+
+int main()
+
+{
+
+    int n;
+
+    char op;
+
+    do{
+
+    scanf("%d",&n);
+
+    if(n>0)
+
+         printf("%d is positive",n);
+
+    else if(n<0)
+
+        printf("%d is negative",n);
+
+    else
+
+        printf(" zero");
+
+printf("\nWant to check more [Y]es/[N]o?");   
+   scanf("%c",&op);                                         
+    scanf("%c",&op);  //written twice because it didnot allow us to enter y or n
+
+    }while(op=='Y'||op=='y');    
+
+    return 0;
+
+}
