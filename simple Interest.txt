@@ -1,0 +1,16 @@
+//C program to calculate simple interest
+#include <stdio.h>
+int main()
+{
+ int principle;
+ float time,rate_of_interest,simple_interest;
+ printf("principle ammount:");
+ scanf("%d",&principle);
+ printf("Rate of interest:");
+ scanf("%f",&rate_of_interest);
+ printf("years:");
+ scanf("%f",&time);
+ simple_interest=principle*time*rate_of_interest/100;
+ printf("simple_interest:%.2f",simple_interest);
+ return 0;
+}
